@@ -1,0 +1,188 @@
+* /*set all padding and margin to zero and box size to border box */
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size:20px;
+    /*border:1px solid white */
+}
+
+
+ul li 
+{
+    list-style-type: none;
+    margin:20px 2px;
+    height:90px;
+    align-items: center;
+    display:flex;
+}
+ul a
+{
+    text-decoration: none;
+    color:white;
+}
+
+ul li:hover
+{
+    background-color: rgb(53, 42, 42);
+    border:2px solid white
+}
+
+aside
+{
+    position:fixed; 
+    top:0;
+    left:0px;
+    border-left:5px solid white;
+    width:250px;
+    height:100vh;
+    background-color: black;
+    overflow: scroll; /* scroll in case the height of the page is small so we can select the links available */
+
+}
+
+body
+{
+    background-image: url("./mj.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+    
+}
+
+
+main
+{
+    /*opacity: .4;*/
+    /*setting alpha = 0.3*/
+    background-color :rgba(0, 0, 0,0.3);
+    color:white;
+    padding:20px 50px 20px 50px;
+    width:calc(100% - 250px);
+    margin-left:250px;
+
+
+
+}
+
+
+header
+{
+    margin:300px 0px 300px 250px;
+    width:calc(100% - 250px);
+}
+
+h1,h2
+{
+    margin:50px 0px 50px 0px;
+}
+
+h1
+{
+    padding:20px;
+}
+
+#title
+{
+    font-size:80px;
+    text-decoration: underline;
+    margin-bottom: 20px;color:beige;
+    text-align: center;
+
+}
+.date
+{
+    color:white;
+    text-align: center;
+    font-size:30px;
+
+} 
+
+span
+{
+    font-size: 120px;
+}
+p
+{
+    margin-left:50px;
+}
+
+article p
+{
+    margin:20px 50px;
+}
+
+img
+{
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    margin:40px 40px;
+}
+
+.left
+{
+    float:left;
+}
+.right
+{
+    float:right
+}
+
+
+
+
+
+footer
+{
+    background-color: black;
+    width:calc(100% - 250px);
+    margin-left:250px;
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    font-size:16px;
+    padding:20px;
+    justify-content: space-around;
+
+}
+
+footer p, footer a
+{
+    display: inline-block;
+    margin-left:10px;
+
+}
+footer img
+{
+    padding:0px;
+    margin:0px;
+}
+
+footer div
+{
+    align-items: center;
+    display: flex;
+}
+
+.wikipedia_link
+{
+    position:absolute;
+    top:40px;
+    left:250px;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+}
+.wikipedia_link a
+{
+    color:brown
+}
+.logo
+{
+    height:30px;
+    width:30px;
+
+}
